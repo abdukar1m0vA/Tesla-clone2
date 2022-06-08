@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+.logInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+
+.logOutBtn{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #68696d;
+    font-size: 16px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+}
+
+.btnIcon{
+    margin-left: 5px;
+}
+
+.carPurchase{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.btnMain{
+    display: flex;
+}
+
+.btnMain > .btn{
+    background-color: #3e6ae1;
+    color: #fff;
+    width: 256px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.btn:nth-child(2){
+    background-color: transparent;
+    border: 2px solid rgba(23, 26, 32, 0.8);
+    color: rgba(26, 34, 49, 0.8);
+    margin-left: 20px;
+}
+
+.modelX{
+    width: 80%;
+}
